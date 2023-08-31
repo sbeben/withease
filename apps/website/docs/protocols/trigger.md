@@ -17,7 +17,7 @@ Protocol that allows start watching some external trigger and react on it with u
 
 ## Formulae
 
-Trigger is an any object with the field `@@trigger` that a function that returns an object with fields:
+Trigger is an any object with the field `@@trigger` that is a function that returns an object with fields:
 
 - `fired`: [_Event_](https://effector.dev/docs/api/effector/event), external consumers will listen it to determine when trigger was activated
 - `setup`: [_Event_](https://effector.dev/docs/api/effector/event), external consumers will call it to set up trigger
